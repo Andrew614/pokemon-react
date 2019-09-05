@@ -1,0 +1,10 @@
+li {
+    list-style-type: none;
+}
+
+.Pokecard {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

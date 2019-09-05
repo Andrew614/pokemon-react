@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 20px/1 sans-serif;
+}
+
+.card {
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: flex;
+    flex: 0 1 calc(25% - 1rem);
+    justify-content: center;
+    margin: .5rem .5rem;
+    padding: 1rem;
+}
+
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Pokedex {
+    display: grid;
+    grid-auto-rows: auto auto;
+    margin: 0 4rem;
+}
+
+.title {
+    margin: 1rem auto;
+}
