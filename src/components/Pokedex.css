@@ -10,13 +10,18 @@ html {
 
 .card {
     align-items: center;
-    border: 1px solid black;
+    background-color: #DCDCDC;
+    border: 1px solid#C0C0C0;
     border-radius: 1rem;
     display: flex;
     flex: 0 1 calc(25% - 1rem);
     justify-content: center;
     margin: .5rem .5rem;
     padding: 1rem;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 .pokemon-list {

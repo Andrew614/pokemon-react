@@ -1,5 +1,6 @@
 import React from 'react'
 import Pokecard from './Pokecard'
+import Footer from './Footer'
 import './Pokedex.css'
 
 const Pokedex = ({ pokemonList }) => {
@@ -17,6 +18,7 @@ const Pokedex = ({ pokemonList }) => {
                     </div>
                 ))}
             </div>
+            <Footer />
         </div>
     )
 }
